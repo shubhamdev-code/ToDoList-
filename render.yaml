@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: your-service-name
-    env: node
-    buildCommand: yarn
-    startCommand: yarn start
-    envVars:
-      - key: NODE_VERSION
-        value: 14.20.1

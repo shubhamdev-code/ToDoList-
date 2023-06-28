@@ -101,6 +101,10 @@ app.post("/", function (req, res) {
   const task = req.body.newItem;
   const listName = req.body.list;
 
+  if (task.length === 0) {
+    return;
+  }
+
   const newTask = new Item({
     name: task,
   });
