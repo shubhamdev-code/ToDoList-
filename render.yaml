@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-service-name
+    name: todolist
     env: node
     buildCommand: yarn
     startCommand: yarn start
